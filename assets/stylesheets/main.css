@@ -46,6 +46,20 @@ table {
   border-spacing: 0;
 }
 
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+body {
+  color: #888;
+  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-siZe: 16px;
+  line-height:22px;
+} 
+
 
 /*
   ========================================
@@ -125,16 +139,22 @@ table {
   padding: 40px 0 22px 0;
   float: left;
   font-size: 48px;
+  font-weight: 100;
   line-height: 44px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
 }
 
 .tagline {
   margin: 66px 0 22px 0;
+  text-align: right;
 }
 
 .primary-nav {
   font-size: 14px;
   font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
 }
 
 
@@ -193,6 +213,7 @@ h5 {
   color: #a9b2b9;
   font-size: 14px;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 strong {
@@ -231,6 +252,7 @@ cite, em {
 .hero {
   line-height: 44px;
   padding: 22px 80px 66px 80px;
+  text-align: center;
 }
 
 .hero h2 {
@@ -239,22 +261,22 @@ cite, em {
 
 .hero p {
   font-size: 24px;
+  font-weight: 100;
 }
 
+.teaser a:hover h3 {
+  color: #a9b2b9;
+}
 
 /*
   ========================================
-  Custom styles
+  Navigation
   ========================================
 */
 
-body {
-  color: #888;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  font-siZe: 16px;
-  line-height:22px;
-} 
+.nav {
+  text-align: right;
+}
 
 
 /*
@@ -263,14 +285,15 @@ body {
   ========================================
 */
 
+a {
+  color: #648880;
+  text-decoration: none;
+}
+
 a:hover {
   color: #a9b2b9;
 }
 
-a {
-  color: #648880;
-}
-
-.teaser a:hover h3 {
-  color: #a9b2b9;
+p a {
+  border-bottom: 1px solid #dfe2e5;
 }
