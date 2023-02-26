@@ -124,6 +124,17 @@ table {
   border-top: 4px solid #648880;
   padding: 40px 0 22px 0;
   float: left;
+  font-size: 48px;
+  line-height: 44px;
+}
+
+.tagline {
+  margin: 66px 0 22px 0;
+}
+
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
 }
 
 
@@ -134,12 +145,15 @@ table {
 */
 
 .primary-footer {
+  color: #648880;
+  font-size: 14px;
   padding-bottom: 44px;
   padding-top: 44px;
 }
 
 .primary-footer small {
   float: left;
+  font-weight: 400;
 }
 
 
@@ -153,6 +167,41 @@ h1, h3, h4, h5, p {
   margin-bottom: 22px;
 }
 
+h1, h2, h3, h4 {
+  color: #648880;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+
+h3 {
+  font-size: 21px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  color: #a9b2b9;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 400;
+}
+
+cite, em {
+  font-style: italic;
+}
 
 
 /*
@@ -180,5 +229,48 @@ h1, h3, h4, h5, p {
 */
 
 .hero {
+  line-height: 44px;
   padding: 22px 80px 66px 80px;
+}
+
+.hero h2 {
+  font-size: 36px;
+}
+
+.hero p {
+  font-size: 24px;
+}
+
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+body {
+  color: #888;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-siZe: 16px;
+  line-height:22px;
+} 
+
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a:hover {
+  color: #a9b2b9;
+}
+
+a {
+  color: #648880;
+}
+
+.teaser a:hover h3 {
+  color: #a9b2b9;
 }
